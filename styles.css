@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pikachu-bg.jpg'); /* Add your image URL here */
+    background-size: cover; /* Makes the background cover the entire page */
+    background-position: center; /* Centers the background image */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    color: #ff5733;
+}
+
+.question {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff8566;
+}
+
+.result {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#yesButton {
+    position: relative;
+}
