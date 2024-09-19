@@ -2,7 +2,7 @@ const yesButton = document.getElementById('yesButton');
 const resultText = document.getElementById('result');
 
 function showFunnyText() {
-    resultText.innerText = "Oh That Means You're Not ........";
+    resultText.innerText = "Oh That Means You're Not ..";
 }
 
 function moveYesButton() {
